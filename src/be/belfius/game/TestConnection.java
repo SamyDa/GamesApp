@@ -14,7 +14,7 @@ public class TestConnection {
 		//String password  = scanner.nextLine();
 		
 		String url = "jdbc:mysql://localhost:3306/games";
-		url+= "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC"; 
+		//url+= "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC"; 
 		try {
 			Class.forName("com.mysql.jdbc.Driver"); 
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/games","root","Sa1_Sony_4");
